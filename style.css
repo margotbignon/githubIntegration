@@ -122,3 +122,20 @@ nav ul li
         margin:auto;
         padding:15px;
     }
+
+
+body 
+    {
+        background-color:#1c1c1e;
+        color:#FFFFFF;
+    }
+    
+
+@media screen and (min-width:600px)
+    {
+        body 
+        {
+            background-color:#FFFFFF;
+            color:#000000;
+        }
+    }
