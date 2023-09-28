@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8" />
-         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta 
             name="description"
             content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat." />
@@ -12,137 +12,190 @@
 
     <body>
         <header>
-            <h1>MON PORTFOLIO</h1>
-                <nav>
-                    <ul>
-                        <li class="deroulant"><a href="#">Menu</a>
-                            <ul class="sous">
-                                <li><a href="#projets">PROJETS</a></li>
-                                <li><a href="#etudes">ETUDES</a></li>
-                                <li><a href="#articles">ARTICLES</a></li>
-                                <li><a href="#contact">CONTACT</a></li>
-                            </ul>
-                        </li>
-                       
-                    </ul>
-                </nav>
+            <nav>
+                <ul>
+                    <li class="deroulant">
+                        <input type="checkbox" id="menu">
+                        <label for="menu" class="icon-burger">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </label>
+                        </a>
+                        
+                        <ul class="sous">
+                            <li><a href="#projets">PROJETS</a></li>
+                            <li><a href="#etudes">A PROPOS DE MOI</a></li>
+                            <li><a href="#articles">COMPETENCES</a></li>
+                            <li><a href="#contact">CONTACT</a></li>
+                        </ul>
+                    </li>
+                  
+                   
+                </ul>
+            </nav>
+            
+            <div class="title">
+                <h1>PORTEFOLIO<br>MARGOT BIGNON</h1>
+                
+            </div>
+                
         </header>
        
-        <section>
-            <aside>
-                <p class="name">Margot Bignon</p>
-            </aside>
-        </section>
-        <section>
-            <h2 id="projets">Lorem Ipsum</h2>
-                <article>
+        
+        <section class="projets">
+            <h2 id="projets">MES PROJETS</h2>
+            <hr ALIGN=center width="100">
+            <div class="flex-container-projets">
+                <article class="flex-item">
                    
-                    <img src="http://via.placeholder.com/110x110/blue" alt="Projet 1" class="hover-effect" />
-                    <p>Lorem Ipsum</p>
+                    <img src="images/p2p.png" alt="Projet 1" class="hover-effect" />
+                    <p class="title-projects">Gestion mise en place plateforme de Peer-to-Peer</p>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat.
+                        Pour développer la collecte d'Action contre la Faim, j'ai supervisé la mise en place d'une plateforme de pages de collecte de dons en ligne : cahier des charges techniques, validation des maquettes, recettage et déploiement. 
                     </p>
-                    <a href="https://google.fr" title="En savoir plus">Lorem Ipsum</a>
+                
+                
+                    <p class="btn-more"><a href="https://google.fr" title="Découvrir" >Découvrir</a></p>
                 </article>
-                <article>
-                    <img src="http://via.placeholder.com/110x110/blue" alt="Projet 2" class="hover-effect">
-                    <p>Lorem Ipsum</p>
+                <article class="flex-item">
+                    <img src="images/marketingauto.avif" alt="Projet 2" class="hover-effect">
+                    <p class="title-projects">Construction cycle relationnel </p>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat.
+                        Pour remercier les nouveaux donateurs et les inciter à continuer de s'engaer avec Action contre la Faim, je me suis chargée de mettre en place un cycle automatique d'emails : rédaction des emails, intégration, mise en place du cycle, analyse et optimisations.
                     </p>
-                    <a href="https://google.fr" title="En savoir plus">Lorem Ipsum</a>
+                    <p class="btn-more"><a href="https://google.fr" title="Découvrir">Découvrir</a></p>
                 </article>
-                <article>
-                    <img src="http://via.placeholder.com/110x110/blue" alt="Projet 3" class="hover-effect">
-                    <p>Lorem Ipsum</p>
+                <article class="flex-item">
+                    <img src="images/campagne.png" alt="Projet 3" class="hover-effect">
+                    <p class="title-projects">Gestion campagnes digitales</p>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat.
+                        Urgences, challenges, sensibilisation... je me suis chargée de la coordination, l'activation et l'optimisation des leviers digitaux (SEA, réseaux sociaux, emailing...) pour lancer et faire connaître nos campagnes de collecte de dons.
                     </p>
-                    <a href="https://google.fr" title="En savoir plus">Lorem Ipsum</a>  
+                    <p class="btn-more"><a href="https://google.fr" title="Découvrir">En savoir plus</a></p> 
                 </article>
+            </div>
         </section>
-        <section>
-            <h2 id="etudes">Lorem Ipsum</h2>
+        <section class="etudes">
+            <h2 id="etudes">A PROPOS DE MOI</h2>
+            <hr ALIGN=center width="100">
+            <div class="flex-container-etude">
                 <div>
-                    <img src="http://via.placeholder.com/110x110/blue" alt="Photo de Margot" class="hover-effect">
-                    <ul>
-                        <li>Lorem</li>
-                        <li>Lorem</li>
-                        <li>Lorem</li>
-                        <li>Lorem Ipsum</li>
-                        <li>Lorem Ipsum</li>
+                    <img src="images/margot.jpg" alt="Photo de Margot" class="hover-effect">
+                </div>
+                <div>
+                    <ul id="apropos">
+                        <li>Margot Bignon</li>
+                        <li>30 ans</li>
+                        <li>Châtillon</li>
+                        <li>
+                            <img src="images/email-adresse.png">
+                            <a href="mailto:margot.bignon@gmail.com" target="blank">margot.bignon@gmail.com</a>
+                        </li>
+                        <li>
+                            <img src="images/phone.png">
+                            <a href="tel:0675416178" target="_blank">0675416178</a>
+                        </li>
                     </ul>
+
                 </div>
+            </div>
+            <h2>MON PARCOURS</h2>
+            <hr ALIGN=center width="100">
                 <div>
-                    <div>
-                        <p>DATE</p>
-                        <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat.
-                        </p>
+                    <div class="parcours">
+                        <p class="date-style">2023 - 2024</p>
+                        <div class="etudep-style">
+                            <img src="images/donkey.png" alt="DonkeySchool">
+                            <p>
+                               
+                            Formation Développement web et web mobile - 7 mois
+                            </p>
+                        </div>
                     </div>
-                    <div>
-                        <p>DATE</p>
-                        <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat.
-                        </p>
+                    <div class="parcours">
+                        <p class="date-style">2016 - 2023</p>
+                        <div class="etudep-style">
+                            <img src="images/acf.png" alt="Action contre la Faim">
+                            <p>
+                            
+                            Chargée de Collecte Digitale - Gestion de projets digitaux pour prospecter et fidéliser des donateurs
+                            </p>
+                        </div>
                     </div>
-                    <div>
-                        <p>DATE</p>
-                        <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat.
-                        </p>
+                    <div class="parcours">
+                        <p class="date-style">2014 - 2016</p>
+                        <div class="etudep-style">
+                            <img src="images/istec.jpg" alt="Action contre la Faim">
+                            <p>
+                           
+                            Master Grande Ecole - Spécialisation Marketing Digital
+                            </p>
+                        </div>
                     </div>
-                    <div>
-                        <p>DATE</p>
-                        <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat.
-                        </p>
-                    </div>
+
                 </div>
         </section>
         <section>
-            <h2 id="articles">Lorem Ipsum</h2>
-                <article>
-                    <img src="http://via.placeholder.com/200x200/blue" alt="Article 1" class="hover-effect">
-                    <p>Lorem Ipsum</p>
+            <h2 id="articles">COMPETENCES</h2>
+            <div class="flex-container-articles">
+                <article class="flex-article">
+                    <img src="images/projet.png" alt="Article 1" class="hover-effect">
+                    <p class="title-task">GESTION DE PROJET</p>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat.
+                        Mise en place de <b>plateformes digitales</b> pour la collecte de dons, lancement de campagnes pour sensibiliser et mobiliser, je suis motivée pour <b>développer les meilleurs projets</b> !
                     </p>
-                    <a href="https://google.fr" title="Lire">Lorem Ipsum</a>
-                    <a href="https://google.fr" title="Voir les commentaires">Lorem Ipsum</a>
+                    
                 </article>
-                <article>
-                    <img src="http://via.placeholder.com/200x200/blue" alt="Article 2" class="hover-effect">
-                    <p>Lorem Ipsum</p>
+                <article class="flex-article">
+                    
+                    <img src="images/email.png" alt="Article 2" class="hover-effect">
+                    <p class="title-task">GESTION CAMPAGNES EMAILING</p>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat.
+                        <b>Intégration d'un email, configuration du ciblage, lancement, reporting</b>. La partie technique mais aussi d'analyse sont gérées en intégralité pour <b>optimiser au mieux tous vos emails</b> !
                     </p>
-                    <a href="https://google.fr" title="Lire">Lorem Ipsum</a>
-                    <a href="https://google.fr"title="Voir les commentaires">Lorem Ipsum</a>
+                
                 </article>
+                <article class="flex-article">
+                    
+                    <img src="images/web.png" alt="Article 2" class="hover-effect">
+                    <p class="title-task">DEVELOPPEMENT WEB</p>
+                    <p>
+                        Prochainement, je pourrai développer vos projets web et <b>rendre concrètes toutes vos belles idées</b> !
+                    </p>
+                
+                </article>
+            </div>
                 
         </section>
         <footer>
-            <h3 id="contact">LOREM IPSUM</h3>
-          <form>
-            <ul>
-                <li>
-                    <label for="name">Nom et prénom</label>
-                    <input type="text" id="name" name="user_name" />
-                </li>
-                <li>
-                    <label for="mail">E-mail</label>
-                    <input type="email" id="mail" name="user_mail">
-                </li>
-                <li>
-                    <label for="msg">Message</label>
-                    <textarea id="msg" name="user_message"></textarea>
-                 </li>
-            </ul>
-            <div class="button">
-                <button type="submit">Envoyé</button>
-              </div>
-          </form>
+            <div class="form-center">
+            <h2 id="contact">ME CONTACTER </h2>
+            <hr ALIGN=center width="100">
+            <p>Démarrons un projet ensemble <br>dès maintenant !</p>
+          
+            <form method="post" action="traitement.php">
+                
+                    <p><label for="name">Nom et prénom</label><br>
+                    <input type="text" id="name" name="user_name" required /></p>
+                
+                    <p><label for="mail">E-mail</label><br>
+                    <input type="email" id="mail" name="user_mail" required /></p>
+                
+                    <p><label for="msg">Message</label><br>
+                    <textarea id="msg" name="user_message" required></textarea></p>
+                
+            
+           
+                <input type="submit" value="Envoyer" class="button-form">
+              
+            </form>
+            
+        </div>
+        <div class="footer-style">
+            <p>© Portfolio Margot Bignon 2023</p>
+        </div>
+        
         </footer>
 
         
